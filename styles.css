@@ -44,7 +44,9 @@ header {
 
   color: #e2ab95;
 }
-
+.menusvg {
+  opacity: 0;
+}
 /* nav bar */
 
 ul {
@@ -306,4 +308,146 @@ a:hover {
 
 .btn:hover {
   background: #ff7b00;
+}
+
+/*  mobile ui  */
+
+@media screen and (max-width: 512px) {
+  body {
+    max-height: 850px;
+  }
+
+  .img-plate {
+    display: none;
+  }
+
+  .logo {
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    left: 52px;
+    top: 24px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.09em;
+
+    color: #c4aba3;
+  }
+
+  .menusvg {
+    opacity: 1;
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    left: 335px;
+    top: 32px;
+  }
+
+  .nav-lists {
+    display: none;
+  }
+
+  .bgimg {
+    display: none;
+  }
+
+  .back-square1 {
+    left: 30px;
+    width: 350px;
+    height: 352px;
+    background: #06626e;
+  }
+
+  .back-square2 {
+    position: absolute;
+    width: 407px;
+    height: 231px;
+    left: 90px;
+    top: 480px;
+
+    background: #06626e;
+    transform: rotate(-90deg);
+  }
+
+  .hero-text {
+    position: absolute;
+    width: 288px;
+    height: 37.44px;
+    left: 52px;
+    top: 131.35px;
+
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29.9574px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .para {
+    position: absolute;
+    width: 380px;
+    left: 5px;
+    top: 100px;
+
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* or 135% */
+
+    color: #f0f0f0;
+  }
+
+  .join-text {
+    position: absolute;
+    width: 262px;
+    height: 25px;
+    left: 40px;
+    top: 180px;
+
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19.6432px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .cta-card {
+    position: absolute;
+    width: 250px;
+    /* height: 206px; */
+    left: 100px;
+    top: 270px;
+    border-radius: 0px 0px 1.7913px 1.7913px;
+  }
+
+  .btn {
+    position: absolute;
+    width: 236px;
+    height: 35.62px;
+    left: 7px;
+    top: 180px;
+
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.515px;
+    line-height: 25px;
+    letter-spacing: -0.09em;
+
+    color: #ffffff;
+  }
 }
